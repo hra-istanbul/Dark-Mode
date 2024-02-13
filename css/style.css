@@ -1,0 +1,326 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.sosilaMedia h1 {
+    font-size: 25px;
+}
+
+#conteynr {
+    margin: auto;
+    width: 85%;
+    margin-top: 1%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.drak_mode {
+    display: flex;
+    gap: 10px;
+}
+
+.drak_mode p {
+    margin-top: 4%;
+}
+
+.button {
+    cursor: pointer;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color: hsl(227, 47%, 85%);
+    border-radius: 20px;
+}
+
+.button span {
+    position: absolute;
+    top: 2px;
+    left: 32px;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.active-button {
+    background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    ;
+}
+
+.active-button span {
+    top: 2px;
+    left: 2px;
+    position: absolute;
+    background-color: hsl(230, 17%, 14%);
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+/* ================================================= */
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.firstbox {
+    width: 240px;
+    height: 200px;
+    margin-top: 2%;
+    background-color: hsl(227, 47%, 96%);
+    text-align: center;
+}
+
+.line {
+    width: 240px;
+    border: 2px solid hsl(208, 92%, 53%);
+}
+
+.facebook {
+    display: flex;
+    gap: 5px;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+.facebook i {
+    font-size: 25px;
+    color: blue;
+}
+
+.facebook p {
+    margin-top: 1%;
+}
+
+.number p {
+    font-size: 40px;
+    margin-top: 9%;
+}
+
+.FOLLOWERS {
+    margin-top: 7%;
+}
+
+.Today {
+    display: flex;
+    margin-left: 30%;
+    margin-top: 7%;
+    color: hsl(163, 72%, 41%);
+    gap: 10px;
+}
+
+/* ================ 2 ========================= */
+
+
+.second {
+    width: 240px;
+    height: 200px;
+    margin-top: 2%;
+    background-color: hsl(227, 47%, 96%);
+    text-align: center;
+}
+
+.line {
+    width: 240px;
+    border: 2px solid hsl(208, 92%, 53%);
+}
+
+.tivit {
+    display: flex;
+    gap: 5px;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+.tivit i {
+    font-size: 25px;
+    color: blue;
+}
+
+.tivit p {
+    margin-top: 1%;
+}
+
+.number1 p {
+    font-size: 40px;
+    margin-top: 9%;
+}
+
+.FOLLOWERS {
+    margin-top: 7%;
+}
+
+.Today1 {
+    display: flex;
+    margin-left: 30%;
+    margin-top: 7%;
+    color: hsl(163, 72%, 41%);
+    gap: 10px;
+}
+
+/* ===================3 cu ============================ */
+
+.third {
+    width: 240px;
+    height: 200px;
+    margin-top: 2%;
+    background-color: hsl(227, 47%, 96%);
+    text-align: center;
+}
+
+.lineinta {
+    width: 240px;
+    border: 2px solid hsl(356, 69%, 56%);
+    ;
+}
+
+.insta {
+    display: flex;
+    gap: 5px;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+.insta i {
+    font-size: 25px;
+    color: hsl(356, 69%, 56%);
+}
+
+.insta p {
+    margin-top: 1%;
+}
+
+.number2 p {
+    font-size: 40px;
+    margin-top: 9%;
+}
+
+.FOLLOWERS {
+    margin-top: 7%;
+}
+
+.Today2 {
+    display: flex;
+    margin-left: 30%;
+    margin-top: 7%;
+    color: hsl(163, 72%, 41%);
+    gap: 10px;
+}
+
+/* =================== 4 ===================== */
+
+.fourth {
+    width: 240px;
+    height: 200px;
+    margin-top: 2%;
+    background-color: hsl(227, 47%, 96%);
+    text-align: center;
+}
+
+.lineinta1 {
+    width: 240px;
+    border: 2px solid red;
+}
+
+.youtube {
+    display: flex;
+    gap: 5px;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+.youtube i {
+    font-size: 25px;
+    color: red;
+}
+
+.youtube p {
+    margin-top: 1%;
+}
+
+.number3 p {
+    font-size: 40px;
+    margin-top: 9%;
+}
+
+.FOLLOWERS1 {
+    margin-top: 7%;
+
+}
+
+.Today3 {
+    display: flex;
+    margin-left: 30%;
+    margin-top: 7%;
+    color: red;
+    gap: 10px;
+}
+
+/* ================================================================ */
+
+.Overview {
+    margin-top: 5%;
+
+}
+
+.page {
+    width: 240px;
+    height: 96px;
+    background-color: hsl(227, 47%, 96%);
+}
+
+.PageViews {
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    padding: 8%;
+}
+
+.PageViews p {
+    font-size: 16px;
+}
+
+.PageViews i {
+    color: blue;
+    font-size: 25px;
+}
+
+.PageViewsNum {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.number87 {
+    display: flex;
+    color: hsl(163, 72%, 41%);
+    margin-top: 2%;
+}
+
+.number87 i {
+    font-size: 10px;
+}
+
+.number87 p {
+    font-size: 10px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.footer{
+    text-align: center;
+    margin-top: 2%;
+}

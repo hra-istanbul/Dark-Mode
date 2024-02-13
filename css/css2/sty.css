@@ -1,0 +1,15 @@
+:root {
+    --greyish: hsl(228, 12%, 44%);
+    --darkBlueish: hsl(230, 17%, 14%);
+    --limeGreen: hsl(163, 72%, 41%);
+    --brightRed: hsl(356, 69%, 56%);
+    --whiteBg: hsl(0, 0%, 100%);
+    --greyisBg: hsl(227, 47%, 96%);
+    --toggleBG: hsl(230, 22%, 74%);
+    --gradBackg: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    --DarkBlueBG: hsl(230, 17%, 14%);
+    --CardBG: hsl(228, 28%, 20%);
+    --whiteText: hsl(0, 0%, 100%);
+    --topBg: hsl(232, 19%, 15%);
+    --brightGrey: hsl(228, 34%, 66%);
+}
